@@ -10,7 +10,7 @@ public class Main {
     System.out.println("電話番号を入力してください");
     String phoneNumber = phoneNumberInput.getPhoneNumber();
 
-// 電話番号のチェック
+    // 電話番号のチェック
     if (phoneNumberChecker.checkPhoneNumber(phoneNumber)) {
       System.out.println(phoneNumber + ": この電話番号は使用できます");
     } else {
